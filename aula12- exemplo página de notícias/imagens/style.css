@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:sans-serif ;
+    background: #ddd;
+    width: 100vw;
+}
+
+/* body{
+    /* font-family: sans-serif;
+    background-color: #f0f0f0;
+    width: 100vw;
+    height: 100vh; */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    border-bottom: 2px solid #6a6a6a;
+}
+
+header .bloco1 {
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .bloco2 .logo {
+    display: flex;
+    width: 90%; 
+    height: 90px;
+}
+
+
+/* header .bloco2 img {
+    width: 30%;
+} */
+
+header .bloco3 {
+    width: 15%;
+    height: 30%;
+    border: 3px inset black;
+    display: flex;
+    border-radius: 20px;
+    background-color: rgb(204, 202, 202);
+}
+
+header .bloco3 img {
+    width: 15%;
+    padding: 10px;
+}
+
+header .bloco3 input {
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+}
+
+header .bloco3 input:focus {
+    outline: none;
+}
+
+.vermelho {
+    color: red
+}
+
+.verde {
+    color: green
+}
+
+.azul {
+    color: rgb(0, 26, 255)
+}
+
+main {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.notícias img {
+    width: 280px;
+    margin: 40px;
+}
+
+.notícias div {
+    display: flex;
+}
+
+.notícias div span {
+    width: 400px;
+    margin-top: 60px;
+}
+
+.notícias div p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+/* .notícias h3 {
+    font-size: 20px;
+    text-align: space-around;
+}
+
+.notícias h3 span {
+    font-size: 15px;
+    border-bottom: 1px;
+} */
+
+/* .notícias {
+    background-color: #f0f0f0;
+    padding: 20px;
+} */
+
+/* .notícias h2 {
+    font-size: 1.5em;
+} */
+
+/* .notícias img {
+    width: 20%;
+} */
+
+.temas-em-alta  {
+    height: 350px;
+    width: 250px;
+    background: #fff;
+    margin-top: 25px;
+}
+
+.temas-em-alta h2 {
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.temas-em-alta ul li {
+    border-bottom: 1px solid black;
+    margin: 20px 20px;
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+
+/* footer {
+    background-color: #222;
+} */
